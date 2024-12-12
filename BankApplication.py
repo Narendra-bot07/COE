@@ -1,14 +1,22 @@
 amount = 0
 
 
-def validation(pin):
-    if pin == 1234:
-        return True
+def validation():
+    count=3
+
+    while(count>0):
+        pin = int(input('Enter your PIN number: '))
+        if pin == 1234:
+            return True
+        else:
+            print("You entered wrong pin")
+            count=count-1
+            print(f"you have {count} chances left")
+
 
 
 print('Welcome to ABC Bank')
-pin = int(input('Enter your PIN number: '))
-if validation(pin):
+if validation():
     while True:
         print("1.Deposit\n2.Withdraw\n3.Bal Enquiry \n4.Exit  \n choose your choice")
         choice = int(input("Enter your choice: "))
@@ -28,4 +36,4 @@ if validation(pin):
                 print("Invalid choice")
 
 else:
-    print("Invalid PIN")
+    print("Your account blocked")
