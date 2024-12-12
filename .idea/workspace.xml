@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b62a18a-239b-4c26-9321-898dd49d26b1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Bank.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BankApplication.py" beforeDir="false" afterPath="$PROJECT_DIR$/BankApplication.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bank.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bank.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +94,7 @@
       <option name="presentableId" value="Default" />
       <updated>1733978334429</updated>
       <workItem from="1733978337006" duration="8747000" />
-      <workItem from="1733990057844" duration="6544000" />
+      <workItem from="1733990057844" duration="7121000" />
     </task>
     <servers />
   </component>
@@ -116,7 +114,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/COE$GrossSalary.coverage" NAME="GrossSalary Coverage Results" MODIFIED="1733981512311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/COE$Bank.coverage" NAME="Bank Coverage Results" MODIFIED="1733996771089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/COE$Bank.coverage" NAME="Bank Coverage Results" MODIFIED="1733996931365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/COE$EmployeeShopping.coverage" NAME="EmployeeShopping Coverage Results" MODIFIED="1733979386019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/COE$CollegeCertificate.coverage" NAME="CollegeCertificate Coverage Results" MODIFIED="1733983457756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/COE$BankApplication.coverage" NAME="BankApplication Coverage Results" MODIFIED="1733992655343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

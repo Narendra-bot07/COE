@@ -21,7 +21,7 @@ class Bank:
             elif withdrawl//200>=1:
                 _200+=1
                 withdrawl-=200
-            elif withdrawl//100>=1:
+            else:
                 _100+=1
                 withdrawl -= 100
         print("Denominations:-")
