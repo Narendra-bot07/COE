@@ -22,12 +22,12 @@ class Bank:
                 _200+=1
                 withdrawl-=200
             else:
-                _100+=1
+                _100 += 1
                 withdrawl -= 100
         print("Denominations:-")
         print(f"500 x {_500} = ",500*_500)
-        print(f"200 x {_200} = ",200*_200)
-        print(f"100 x {_100} = ", 100 *_100)
+        print(f"200 x {_200} = ", 200*_200)
+        print(f"100 x {_100} = ", 100*_100)
     def deposit(self):
         while True:
             self.damount = int(input("Enter amount to deposit: "))
@@ -43,19 +43,19 @@ class Bank:
     def display(self):
         print("Available amount ",self.amount)
     def withdraw(self):
-        if self.maxtransaction==0:
+        if self.maxtransaction == 0:
             print("You cannot make transactions..you reached maximum limit for today i.e 3")
-        while self.maxtransaction>0:
+        while self.maxtransaction > 0:
             self.wamount = int(input("Enter amount to withdraw: "))
-            if self.wamount>20000:
+            if self.wamount > 20000:
                 print("Sorry, you can't withdraw more than 20000 at a time")
             else:
-                if self.wamount>self.amount:
+                if self.wamount > self.amount:
                     print("You have insufficient balance")
                     self.display()
-                elif self.wamount<100:
+                elif self.wamount < 100:
                     print("Sorry, you can't withdraw less than 100")
-                elif self.wamount%100!=0:
+                elif self.wamount % 100 != 0:
                     print("withdrawl amount should be multiples of 100")
                 elif self.amount-self.wamount<500:
                     print("you should maintain atleast 500 in ur account")
