@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b62a18a-239b-4c26-9321-898dd49d26b1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/CollegeStreamlit.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GrossStream.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StreamAppli.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StreamBank.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bank.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bank.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StreamBank.py" beforeDir="false" afterPath="$PROJECT_DIR$/StreamBank.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +98,7 @@
       <workItem from="1733990057844" duration="7873000" />
       <workItem from="1734060365951" duration="9000" />
       <workItem from="1734061376722" duration="9378000" />
-      <workItem from="1734076339202" duration="4360000" />
+      <workItem from="1734076339202" duration="7296000" />
     </task>
     <servers />
   </component>
@@ -117,6 +112,11 @@
           <url>file://$PROJECT_DIR$/main.py</url>
           <line>8</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/StreamBank.py</url>
+          <line>98</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

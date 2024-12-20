@@ -96,6 +96,5 @@ class Bank:
                 st.error("Invalid choice")
         else:
             st.error("Your account is blocked due to too many wrong PIN attempts")
-
 obj = Bank()
 obj.displayOption()
