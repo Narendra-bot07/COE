@@ -5,3 +5,4 @@ mydb = con.connect(
   password="root",
   database='mydb'
 )
+cursor = mydb.cursor()

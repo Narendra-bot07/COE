@@ -1,5 +1,4 @@
-from connection import mydb
-cursor = mydb.cursor()
+from connection import cursor
 id = int(input("Enter the id: "))
 name = input("Enter your name: ")
 query = "insert into student values(%s,%s)"
